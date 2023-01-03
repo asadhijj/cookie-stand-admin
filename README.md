@@ -2,7 +2,7 @@
 
 ## Links and Resources
 
-    Class Repo
+    [PULL REQUEST](https://github.com/asadhijj/cookie-stand-admin/pull/1)
 
 ## Setup
 
