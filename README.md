@@ -2,7 +2,7 @@
 
 ## Links and Resources
 
-[PULL REQUEST](https://github.com/asadhijj/cookie-stand-admin/pull/1)
+[PULL REQUEST](https://github.com/asadhijj/cookie-stand-admin/pull/2)
 
 ## Setup
 
