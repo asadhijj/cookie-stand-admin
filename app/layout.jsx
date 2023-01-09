@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-
-import './globals.css'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import ThemeWrapper from './contexts/theme'
+import "./globals.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import ThemeWrapper from "./contexts/theme";
+import { AuthWrapper } from "./contexts/auth";
 
 export default function RootLayout({ children }) {
   return (
@@ -14,20 +14,19 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <ThemeWrapper>
-      <body>
-        <header>
-          <Header />
-        </header>
-        <main className='dark:bg-black'>
-          {children}
-        </main>
-        <footer>
-          <Footer />
-        </footer>
-        </body>
+      <AuthWrapper>
+        <ThemeWrapper>
+          <body>
+            <header>
+              <Header />
+            </header>
+            <main className="dark:bg-[#BD8C61]"> {children}</main>
+            <footer>
+              <Footer />
+            </footer>
+          </body>
         </ThemeWrapper>
-
+        </AuthWrapper>
     </html>
-  )
+  );
 }
