@@ -28,7 +28,7 @@ export default function Form() {
 
   return (
     <>
-      <section className="bg-[#FFD495] py-4 px-4 text-center ">
+      <section className="bg-[#FFD495] py-4 px-4 text-center py-2 dark:bg-slate-900">
       <form className="bg-[#FAAB78] m-6" onSubmit={submitHandler}>
           <label className="block font-bold text-2xl mb-2 text-[#270D0B] text-center" > Cookies Stand </label>
           <br></br>
